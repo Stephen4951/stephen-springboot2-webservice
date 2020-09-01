@@ -19,6 +19,7 @@ public class HelloResponseDtoTest {
         System.out.println("dto.getName() = " + dto.getName());
         System.out.println("dto.getAmount() = " + dto.getAmount());
 
+
         //then
         assertThat(dto.getName()).isEqualTo(name);
         assertThat(dto.getAmount()).isEqualTo(amount);
